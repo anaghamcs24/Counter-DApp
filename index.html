@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Counter DApp</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Ethers.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Counter DApp (Hoodi Testnet)</h1>
+
+    <button id="connectButton">Connect Wallet</button>
+    <p id="accountDisplay">Not connected</p>
+    <p id="networkDisplay">Network: -</p>
+
+
+    <div class="card">
+      <h2>Counter Value</h2>
+      <p id="countValue">-</p>
+      <button id="getCountButton">Get Current Count</button>
+    </div>
+
+    <div class="card">
+      <h2>Increment Counter</h2>
+      <button id="incrementButton">Increment</button>
+    </div>
+
+    <div class="card">
+      <h2>Set Counter Manually</h2>
+      <input type="number" id="newCountInput" placeholder="Enter new count" />
+      <button id="setCountButton">Set Count</button>
+    </div>
+
+    <p id="status"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

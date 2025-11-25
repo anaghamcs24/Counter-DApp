@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #020617;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  width: 360px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+#countValue {
+  font-size: 24px;
+  margin: 8px 0;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #4b5563;
+  margin-bottom: 8px;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+#status {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #a5b4fc;
+}
